@@ -1,0 +1,98 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+/* top-section */
+header{
+    text-align: center;
+    padding:70px 0 50px 0;
+}
+
+header p{
+    color:#7B8FA1;
+    font-weight: 400;
+    margin:0 auto;
+    font-size: 1rem;
+    max-width: 500px;
+}
+
+header h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+header h2{
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* activity section */
+.container{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  margin-bottom: 50px;
+}
+
+.cards{
+   align-items:center;
+   display:block;
+   justify-content: space-evenly; 
+   margin:10px;
+}
+
+.card{
+    padding:20px;
+    margin:30px 0;
+    max-width: 400px;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px #EEEEEE;
+}
+
+ .supervisor{
+    border-top: 3px solid hsl(180, 62%, 55%);
+    float:left;
+    margin:0;
+}   
+
+.builder{
+    border-top: 3px solid #820000;
+}
+
+.karma{
+    border-top: 3px solid hsl(34, 97%, 64%);
+}
+
+.calculate{
+    border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+img{
+    padding:3% 3% 3% 3%;
+   display:block;
+   margin-left:auto;
+   margin-top:30px;
+}
+
+@media screen and (max-width:500px) {
+    body{
+        font-size: 20px;
+    }
+
+    header h1,header h2{
+        font-size: 2em;
+    }
+
+    header p{
+        font-size: 0.5em;
+        max-width: 400px;
+    }
+}
